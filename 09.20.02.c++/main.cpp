@@ -1,15 +1,32 @@
-//
-//  main.cpp
-//  09.20.02.c++
-//
-//  Created by s20181105879 on 2019/9/20.
-//  Copyright © 2019 s20181105879. All rights reserved.
-//
-
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include <string.h>
+#include <stdio.h>
+#include <cstring>
+using namespace std;
+string s1[100];
+string s2[100];
+int main() {
+    int n;
+    cin>>n;
+    int m;
+    int j=0,k=0;
+    for(int i=0;i<n;i++)
+    {
+        cin>>m;
+        if(m==1)
+        {
+            cin>>s1[j];
+            j++;
+        }
+        else{
+            cin>>s2[k];
+            k++;
+        }
+    }
+    
+    
+    
+    
+    
     return 0;
 }
